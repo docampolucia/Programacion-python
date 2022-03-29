@@ -37,5 +37,4 @@ while rta.lower() != "no":
 
         rta = input("Desea ingresar otra materia? (si/no): ")
         
-
 print( f"Las materias que cursa este año son: {materias}")
