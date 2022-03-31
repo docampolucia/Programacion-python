@@ -1,5 +1,7 @@
 # Ejercicio 9 - Lucia Docampo
 # Chequear si ambos caracteres son números
+from funciones import suma, resta, multiplicacion, division
+
 error_1 = 1
 while error_1 > 0:
     error_1 = 0
@@ -21,18 +23,19 @@ while error_2 > 0:
                 error_2 += 1
 
 # Definir operacion
+
 operacion = input("Seleccione una operación (+, -, *, /): ")
 numero_1 = float(numero_1)
-numero_2 = float(numero_2)
+numero_2 = float (numero_2)
 
 if operacion == "+":
-    print(numero_1 + numero_2)
+   print(suma(numero_1, numero_2))
 
 if operacion == "-":
-    print(numero_1 - numero_2)
+    print(resta(numero_1, numero_2))
 
 if operacion == "*":
-    print(numero_1 * numero_2)
-
+    print(multiplicacion(numero_1, numero_2))
+    
 if operacion == "/":
-    print(numero_1 / numero_2)
+    print(division(numero_1, numero_2))
