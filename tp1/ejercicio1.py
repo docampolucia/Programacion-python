@@ -17,7 +17,7 @@ for i in range(4) :
         else:
                 print ("La materia esta desaprobada.")
 
-rta = input("Desea ingresar otra materia? (si/no)")
+rta = input("Desea ingresar otra materia? (si/no): ")
 while rta.lower() != "no":
         opcion = input("\n ¿Qué materia estás cursando este año? \n Ingresa el nombre de una de ellas: ")
         materias.append(opcion)
